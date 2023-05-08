@@ -1,3 +1,4 @@
+import React from "react";
 import { useDispatch } from "react-redux";
 import { useState } from "react";
 import { fetchCreateSpot, fetchCreateSpotImage } from "../../store/spot";

@@ -1,3 +1,4 @@
+import React from "react";
 import { useDispatch } from "react-redux";
 import { useState, useEffect } from "react";
 import { useHistory, useLocation } from "react-router-dom";
@@ -58,9 +59,8 @@ const ProfileButton = ({ user, setLogin, setShowModal }) => {
             </li>
             <li>{user.email}</li>
             <li
-              className={`profile-dropdown-menu-button-box ${
-                path === "/user/bookings" && "user-home-dropdown-button-box"
-              }`}
+              className={`profile-dropdown-menu-button-box ${path ===
+                "/user/bookings" && "user-home-dropdown-button-box"}`}
             >
               <button
                 onClick={handleBookings}
