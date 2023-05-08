@@ -8,7 +8,9 @@
     "sequelize-cli": "sequelize-cli",
     "start": "per-env",
     "start:development": "nodemon ./bin/www",
-    "start:production": "node ./bin/www"
+    "start:production": "node ./bin/www",
+    "build": "npm run build --prefix backend",
+    "dev:backend": "npm start --prefix backend"
   },
   "keywords": [],
   "author": "",
