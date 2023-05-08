@@ -1,0 +1,41 @@
+.spot-subtitle-container {
+  border: 1px solid transparent;
+  border-bottom-color: #dddddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.host-box h3 {
+  font-size: 1.2rem;
+}
+
+.lsting-detail-box {
+  padding-top: 1rem;
+}
+
+.avatar-box img {
+  width: 3rem;
+}
+
+.calendar-label-box {
+  font-size: 10px !important;
+  line-height: 12px !important;
+  color: rgb(34, 34, 34) !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+.booking-date-block {
+  width: 100%;
+  border: 1px solid rgb(176, 176, 176);
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.calendar-label-box {
+  border: none;
+}

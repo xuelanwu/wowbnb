@@ -1,0 +1,13 @@
+.review-stars-block {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  column-gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.stars-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

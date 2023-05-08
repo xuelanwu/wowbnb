@@ -1,0 +1,21 @@
+.login-block {
+  width: 90%;
+  border: 1px solid #dddddd;
+}
+
+.login-block.login-inputs {
+  margin-bottom: 10px;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 10px 10px;
+}
+.login-box input {
+  height: 50px;
+  font-size: 20px;
+  padding-left: 5px;
+  border-radius: 10px;
+}

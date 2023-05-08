@@ -1,0 +1,79 @@
+.DateRangePicker {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.DateRangePickerInput {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.DateInput_input {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(113, 113, 113);
+  padding-top: 0;
+}
+
+.DateInput {
+  width: 100%;
+}
+
+.DateInput_input__focused {
+  border-bottom: none;
+}
+
+.CalendarMonth_table,
+.CalendarMonth_table tbody,
+.CalendarMonth_table tr,
+.CalendarMonth_table td {
+  border-collapse: separate;
+  border-radius: 50%;
+}
+
+.CalendarDay {
+  border-radius: 50%;
+}
+
+.CalendarDay__default:hover,
+.CalendarDay__default {
+  border: none;
+}
+
+.CalendarDay__selected,
+.CalendarDay__selected:active,
+.CalendarDay__selected:hover {
+  background-color: black;
+}
+
+.CalendarDay__hovered_span,
+.CalendarDay__selected_span {
+  background-color: rgb(113, 113, 113, 0.1);
+  color: black;
+}
+
+.CalendarDay__selected_span:active,
+.CalendarDay__selected_span:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.CalendarDay__hovered_span:hover {
+  background-color: black;
+  color: white;
+}
+
+.CalendarDay__blocked_calendar,
+.CalendarDay__blocked_calendar:active,
+.CalendarDay__blocked_calendar:hover {
+  background: transparent;
+  border: none;
+  color: #82888a;
+  text-decoration: line-through;
+}

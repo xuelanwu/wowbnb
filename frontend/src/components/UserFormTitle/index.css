@@ -1,0 +1,9 @@
+.form-modal-title-block {
+  display: flex;
+  border: 1px solid transparent;
+  border-bottom-color: #dddddd;
+  padding: 15px 35px;
+}
+.form-modal-title-box {
+  padding-left: 30%;
+}

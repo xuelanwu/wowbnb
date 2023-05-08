@@ -1,0 +1,10 @@
+.spot-description-container {
+  border: 1px solid transparent;
+  border-bottom-color: #dddddd;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.spot-description-container p {
+  line-height: 1.6;
+}

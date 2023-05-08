@@ -1,0 +1,110 @@
+button {
+  cursor: pointer;
+}
+
+.globe-icon-box {
+  cursor: pointer;
+}
+
+.nav-container {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #dddddd;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 6rem;
+}
+.nav-bar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-block-logo {
+  width: 33%;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-items.logo {
+  display: block;
+}
+
+.fa-wave-square {
+  color: rgb(255, 56, 92);
+}
+
+.fa-magnifying-glass {
+  color: white;
+}
+
+.nav-create-spot {
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  border-radius: 40px;
+}
+
+.create-spot-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: max-content;
+}
+
+.nav-create-spot:hover {
+  background-color: rgba(221, 221, 221, 0.3);
+}
+
+.globe-icon-box {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 10px 12px;
+}
+
+.globe-icon-box:hover {
+  background-color: rgba(221, 221, 221, 0.3);
+}
+
+.nav-items.dropdown {
+  position: relative;
+  padding-left: 5px;
+}
+
+.profile-dropdown-menu-button {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #dddddd;
+  border-radius: 40px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-menu-icon {
+  padding-left: 2px;
+  padding-right: 10px;
+}
+
+.profile-avatar-icon {
+  border: 1px solid RGB(113, 113, 113);
+  padding: 5px;
+  border-radius: 50%;
+  background-color: RGB(113, 113, 113, 0.8);
+}
+
+.fa-user {
+  color: white;
+}

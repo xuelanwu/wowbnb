@@ -1,0 +1,70 @@
+.spot-card-container {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  padding: 3rem 0;
+  flex: 1;
+}
+
+.spot-card-container li {
+  list-style-type: none;
+}
+
+.navlink-spot-card {
+  text-decoration: none;
+  color: black;
+}
+
+.spot-card-city-box p {
+  font-weight: 600;
+}
+
+.spot-card-image-box {
+  width: 28vw;
+  height: 28vw;
+}
+
+.spot-card-image-box img {
+  width: 28vw;
+  height: 28vw;
+  border-radius: 10px;
+}
+
+.spot-card-text-box {
+  padding: 0.1rem 0;
+}
+
+.spot-card-text-box:nth-of-type(1) {
+  padding-top: 0.5rem;
+}
+
+.spot-card-city-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spot-card-added-time-box,
+.spot-card-available-box {
+  color: rgb(113, 113, 113);
+}
+
+/* .no-matches-title-block h3 {
+  margin: 0;
+} */
+
+.no-matches-title-block {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  padding-bottom: 3rem;
+}
+
+.no-matches-filter-clear-button {
+  background-color: white;
+  color: rgb(255, 56, 92);
+  padding: 0.2rem 0.5rem;
+  border: 1px solid rgb(255, 56, 92);
+  border-radius: 0.75rem;
+}

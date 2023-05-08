@@ -1,0 +1,51 @@
+.delete-modal-container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+.delete-modal-block {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.delete-modal-block h2 {
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.delete-modal-button-block {
+  padding: 15px;
+  background-color: rgb(255, 56, 92);
+  border: 1px solid rgb(255, 56, 92);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.delete-modal-button-block.cancel {
+  background-color: white;
+}
+
+.delete-modal-block button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.delete-modal-cancel-button {
+  color: rgb(255, 56, 92);
+}
+.delete-modal-delete-button {
+  color: white;
+}

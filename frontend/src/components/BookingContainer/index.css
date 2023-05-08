@@ -1,0 +1,64 @@
+.booking-container {
+  width: 30vw;
+  padding: 1.5rem;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 0.75rem;
+  box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+}
+
+.booking-price-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-price-left h2 {
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+
+.booking-price-left span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.booking-avg {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+}
+
+.booking-reviews {
+  color: rgb(113, 113, 113);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.booking-button-block {
+  width: 100%;
+}
+
+.booking-button-block button {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0.875rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  background: radial-gradient(
+    circle at center,
+    #ff385c 0%,
+    #e61e4d 27.5%,
+    #e31c5f 40%,
+    #d70466 57.5%,
+    #bd1e59 75%,
+    #bd1e59 100%
+  );
+}
+
+.booking-button-block button:disabled {
+  cursor: not-allowed;
+}

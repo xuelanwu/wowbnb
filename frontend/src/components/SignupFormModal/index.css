@@ -1,0 +1,75 @@
+.signup-login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+.form-modal-block,
+.form-modal-welcome-block,
+.form-modal-error-block,
+.form-submit-button-block {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 90%;
+  margin: auto;
+}
+
+.form-modal-error-block {
+  padding-bottom: 1em;
+}
+
+.form-modal-error-block li {
+  list-style-type: none;
+  color: red;
+}
+
+.close-button-box button {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+.form-modal-welcome-block {
+  padding-top: 0.5rem;
+}
+.form-modal-welcome-block h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.form-modal-block {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 1rem;
+  color: rgb(113, 113, 113);
+}
+
+.form-modal-block input {
+  border: none;
+  outline: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.form-submit-button-block {
+  background-color: rgb(255, 56, 92);
+  border: none;
+  padding: 0;
+}
+
+.form-submit-button {
+  width: 100%;
+  padding: 0.8rem 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  color: white;
+}

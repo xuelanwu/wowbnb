@@ -1,0 +1,82 @@
+.review-container {
+  margin-bottom: 2rem;
+}
+
+.overall-review-block {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.create-review-button-box button {
+  background-color: rgb(255, 56, 92);
+  color: white;
+  font-size: 1rem;
+  border: 1px solid rgb(255, 56, 92);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.overall-review-block span,
+.no-review-span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.avg-star-span,
+.num-reviews-span {
+  padding-left: 5px;
+}
+
+.review-content-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.review-box {
+  width: 48%;
+  padding-bottom: 40px;
+}
+
+.review-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.review-delete-box {
+  padding-right: 1em;
+}
+
+.review-delete-box button {
+  background-color: rgb(255, 56, 92);
+  color: white;
+  font-size: 1.2rem;
+  border: 1px solid rgb(255, 56, 92);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.review-name-block {
+  padding-left: 1em;
+}
+
+.review-content-box {
+  padding-top: 1em;
+}
+
+.review-text {
+  font-size: 1rem;
+}
+
+.review-name-box p {
+  font-weight: 600;
+}
+.review-date-box p {
+  color: rgb(113, 113, 113);
+}

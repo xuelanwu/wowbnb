@@ -1,0 +1,118 @@
+.nav-block-filter {
+  width: 50%;
+  position: relative;
+}
+
+.search-container {
+  background-color: white;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 40px;
+}
+
+.search-container:hover {
+  box-shadow: 1px 1px 1px 1px rgba(221, 221, 221, 0.3);
+}
+
+.search-button {
+  font-size: 1rem;
+  outline: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-right: 1px solid #dddddd;
+}
+
+.search-button:nth-of-type(3) {
+  border-right: transparent;
+  color: #717171;
+}
+
+.search-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgb(255, 56, 92);
+  border: none;
+}
+
+.filter-form {
+  width: 25rem;
+  position: absolute;
+  top: 120%;
+  left: -2rem;
+  padding: 1rem 1rem;
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 0.75rem;
+  box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+}
+
+.filter-form-block {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.filter-form-block:first-of-type {
+  padding-top: 0;
+}
+
+.filter-keyword-box {
+  width: 100%;
+}
+
+.filter-keyword-box,
+.filter-price-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: auto;
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 0 1px #b0b0b0;
+  padding: 0.5rem;
+}
+
+.filter-price-box label,
+.filter-keyword-box label {
+  color: rgb(113, 113, 113);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.filter-keyword-box input,
+.filter-price-box input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+}
+
+.filter-price-input-box {
+  display: flex;
+}
+
+.filter-error {
+  list-style: none;
+  padding-left: 0.5rem;
+  color: red;
+}
+
+.spot-filter-search-button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  background: radial-gradient(
+    circle at center,
+    #ff385c 0%,
+    #e61e4d 27.5%,
+    #e31c5f 40%,
+    #d70466 57.5%,
+    #bd1e59 75%,
+    #bd1e59 100%
+  );
+  color: white;
+}
